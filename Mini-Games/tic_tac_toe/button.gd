@@ -3,8 +3,8 @@ extends Control
 signal click
 @export var index: int
 
-const o_texture = preload("res://Mini-Games/TicTacToe2/tmpTextures/o.png")
-const x_texture = preload("res://Mini-Games/TicTacToe2/tmpTextures/x.png")
+const o_texture = preload("res://Mini-Games/tic_tac_toe/tmpTextures/o.png")
+const x_texture = preload("res://Mini-Games/tic_tac_toe/tmpTextures/x.png")
 
 func _ready():
 	$texture.custom_minimum_size = size

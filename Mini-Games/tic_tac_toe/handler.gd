@@ -5,7 +5,7 @@ signal game_results(winner: int) # -1 is lose, 0 is draw, 1 is win
 ## AI will choose to not make the optimal move (ex. 1/5 times)
 @export var ai_accuracy: float = 0.8
 
-const BUTTON = preload("res://Mini-Games/TicTacToe2/button.tscn")
+const BUTTON = preload("res://Mini-Games/tic_tac_toe/button.tscn")
 @onready var cells: GridContainer = $Cells
 @onready var icon: Control = $Label/icon
 
