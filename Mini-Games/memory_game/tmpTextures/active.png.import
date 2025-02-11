@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cfmx0rslcle7w"
-path="res://.godot/imported/o.png-696db76cb20cf190cd94f1bb5a5daccb.ctex"
+uid="uid://j32ffkdt67sd"
+path="res://.godot/imported/active.png-1e3e2603675824967efa0f26e317f453.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Mini-Games/TicTacToe2/tmpTextures/o.png"
-dest_files=["res://.godot/imported/o.png-696db76cb20cf190cd94f1bb5a5daccb.ctex"]
+source_file="res://Mini-Games/memory_game/tmpTextures/active.png"
+dest_files=["res://.godot/imported/active.png-1e3e2603675824967efa0f26e317f453.ctex"]
 
 [params]
 

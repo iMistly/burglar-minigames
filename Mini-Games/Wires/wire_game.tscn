@@ -1,11 +1,11 @@
 [gd_scene load_steps=7 format=3 uid="uid://djvyd1s0lcm5m"]
 
-[ext_resource type="Script" path="res://Mini-Games/Wires/wire_end.gd" id="1_ia165"]
-[ext_resource type="Script" path="res://Mini-Games/Wires/wire_game.gd" id="1_uv1se"]
-[ext_resource type="Script" path="res://Mini-Games/Wires/wire.gd" id="1_vga0t"]
-[ext_resource type="Texture2D" uid="uid://csxuf4nmh2lmm" path="res://Mini-Games/Wires/polished_deepslate.png" id="2_b1qe8"]
-[ext_resource type="Texture2D" uid="uid://bfymj7prui5sh" path="res://Mini-Games/Wires/redstone_line.png" id="3_6aqt4"]
-[ext_resource type="Texture2D" uid="uid://wwsi2qldv6qf" path="res://Mini-Games/Wires/redstone_block.png" id="3_ad57f"]
+[ext_resource type="Script" path="res://Mini-Games/wires/wire_end.gd" id="1_ia165"]
+[ext_resource type="Script" path="res://Mini-Games/wires/wire_game.gd" id="1_uv1se"]
+[ext_resource type="Script" path="res://Mini-Games/wires/wire.gd" id="1_vga0t"]
+[ext_resource type="Texture2D" uid="uid://csxuf4nmh2lmm" path="res://Mini-Games/wires/polished_deepslate.png" id="2_b1qe8"]
+[ext_resource type="Texture2D" uid="uid://bfymj7prui5sh" path="res://Mini-Games/wires/redstone_line.png" id="3_6aqt4"]
+[ext_resource type="Texture2D" uid="uid://wwsi2qldv6qf" path="res://Mini-Games/wires/redstone_block.png" id="3_ad57f"]
 
 [node name="wire_game" type="Node2D"]
 texture_filter = 1

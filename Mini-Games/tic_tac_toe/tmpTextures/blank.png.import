@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://wwsi2qldv6qf"
-path="res://.godot/imported/redstone_block.png-686d2274cc82c7941cba8bcda5d1b3e9.ctex"
+uid="uid://cq3yvgs65xps6"
+path="res://.godot/imported/blank.png-8fb0766b0251118a6d97b863b46e70a3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Mini-Games/wires/redstone_block.png"
-dest_files=["res://.godot/imported/redstone_block.png-686d2274cc82c7941cba8bcda5d1b3e9.ctex"]
+source_file="res://Mini-Games/tic_tac_toe/tmpTextures/blank.png"
+dest_files=["res://.godot/imported/blank.png-8fb0766b0251118a6d97b863b46e70a3.ctex"]
 
 [params]
 
