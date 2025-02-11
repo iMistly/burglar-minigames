@@ -1,0 +1,60 @@
+[gd_scene load_steps=7 format=3 uid="uid://djvyd1s0lcm5m"]
+
+[ext_resource type="Script" path="res://Mini-Games/Wires/wire_end.gd" id="1_ia165"]
+[ext_resource type="Script" path="res://Mini-Games/Wires/wire_game.gd" id="1_uv1se"]
+[ext_resource type="Script" path="res://Mini-Games/Wires/wire.gd" id="1_vga0t"]
+[ext_resource type="Texture2D" uid="uid://csxuf4nmh2lmm" path="res://Mini-Games/Wires/polished_deepslate.png" id="2_b1qe8"]
+[ext_resource type="Texture2D" uid="uid://bfymj7prui5sh" path="res://Mini-Games/Wires/redstone_line.png" id="3_6aqt4"]
+[ext_resource type="Texture2D" uid="uid://wwsi2qldv6qf" path="res://Mini-Games/Wires/redstone_block.png" id="3_ad57f"]
+
+[node name="wire_game" type="Node2D"]
+texture_filter = 1
+script = ExtResource("1_uv1se")
+num_wires = 5
+
+[node name="play_area" type="TextureRect" parent="."]
+offset_left = 259.0
+offset_top = 80.0
+offset_right = 853.0
+offset_bottom = 522.0
+texture = ExtResource("2_b1qe8")
+stretch_mode = 1
+
+[node name="wire" type="Node2D" parent="."]
+script = ExtResource("1_vga0t")
+
+[node name="wire_length" type="TextureRect" parent="wire"]
+texture_filter = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 337.0
+offset_top = 193.0
+offset_right = 452.0
+offset_bottom = 209.0
+grow_vertical = 2
+texture = ExtResource("3_6aqt4")
+stretch_mode = 1
+
+[node name="wire_end" type="TextureRect" parent="wire"]
+texture_filter = 1
+texture_repeat = 2
+offset_left = 437.0
+offset_top = 188.0
+offset_right = 461.0
+offset_bottom = 212.0
+pivot_offset = Vector2(32, 32)
+mouse_filter = 0
+mouse_default_cursor_shape = 2
+texture = ExtResource("3_ad57f")
+script = ExtResource("1_ia165")
+
+[node name="port" type="TextureRect" parent="wire"]
+z_index = 1
+offset_left = 553.0
+offset_top = 181.0
+offset_right = 593.0
+offset_bottom = 221.0
+texture = ExtResource("3_ad57f")
+
+[connection signal="gui_input" from="wire/wire_end" to="." method="_on_wire_end_gui_input"]
