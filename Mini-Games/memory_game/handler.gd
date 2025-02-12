@@ -25,7 +25,6 @@ var sub_sequence_selected: Array = []
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	var target_size = 16 * sqrt(num_buttons)
-	print(target_size)
 	grid_container.size = Vector2(target_size, target_size)
 	camera_2d.position = grid_container.position + grid_container.size / 2
 	for i in range(num_buttons):

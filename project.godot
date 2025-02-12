@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="burglar-minigames"
-run/main_scene="res://Mini-Games/memory_game/memory_game.tscn"
+run/main_scene="res://Mini-Games/keypad/keypad.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
