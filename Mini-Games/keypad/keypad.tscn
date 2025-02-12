@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://fboehgvtxbd1"]
+
+[ext_resource type="Script" path="res://Mini-Games/keypad/handler.gd" id="1_pj5mk"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_pj5mk")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(4, 4)
+
+[node name="GridContainer" type="GridContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+columns = 3
